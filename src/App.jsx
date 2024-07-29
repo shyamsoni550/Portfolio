@@ -11,7 +11,7 @@ import Experience from "./Experience"
 function App() {
   return (
     <>
-     <Home/>  
+        <Home/>  
         <Navbar />
         <About />
         <PortFolio />
