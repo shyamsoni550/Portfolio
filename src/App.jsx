@@ -1,21 +1,23 @@
 import React from 'react'
+import Home from "./Home"
 import Navbar from "./Navbar"
-import Home from "./home"
 import About from "./About"
 import PortFolio from './PortFolio'
 import Footer from "./Footer"
 import Experience from "./Experience"
 
 
+
 function App() {
   return (
     <>
+     <Home/>  
         <Navbar />
-        <home />
         <About />
         <PortFolio />
         <Experience />
         <Footer />
+       
     </>
   );
 }

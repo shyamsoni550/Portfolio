@@ -8,7 +8,7 @@ import { SiExpress } from "react-icons/si";
 import { IoLogoReact } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa6";
 import { ReactTyped, Typed } from "react-typed";
-function home() {
+function Home() {
   return (
     <div className="max-w-screen-2xl container mx-auto px-4 md:px-20  my-20">
       <div className="flex flex-col md:flex-row">
@@ -95,4 +95,4 @@ function home() {
  
 }
 
-export default home;
+export default Home;
