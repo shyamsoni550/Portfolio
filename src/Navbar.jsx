@@ -22,7 +22,6 @@ function Navbar() {
       id: 4,
       text: "Experiance",
     },
-
   ];
   return (
     <>
@@ -32,7 +31,7 @@ function Navbar() {
             <img src={pic} className="h-12 w-12 rounded-full" alt="" />
             <h1 className="font-semibold text-xl cursor-pointer">
               Shya<span className="text-green-500 text-2xl">m</span>
-              <p className="text-xl">Full-Stack  Developer</p>
+              <p className="text-sm">Full-stack Developer</p>
             </h1>
           </div>
           {/* desktop navbar */}
