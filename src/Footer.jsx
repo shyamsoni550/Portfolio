@@ -14,11 +14,9 @@ function Footer() {
           </div>
           <div className="mt-8 border-t border-gray-900 pt-8 flex flex-col items-center">
             <p className="text-sm">
-              &copy; 2024 your company .All rights reserved 
+              &copy; 2024 vaya shyam  .All rights reserved 
             </p>
-            <p className="text-sm">
-              support partner shyam ❤️
-            </p>
+            
           </div>
         </div>
       </div>
