@@ -14,7 +14,7 @@ function About() {
         Education & Training{" "}
       </h1>
       <span>
-        Computer Enginnering | <b>ADITYA SILVER OAK (2021-2025)</b> |
+      ADITYA SILVER OAK (2021-2025)                                                                                                     Computer Engineering |
         Ahmedabad,India | CGPA:8.02
       </span>
       <br />
@@ -91,6 +91,15 @@ function About() {
             IT QUIZ certificate (L.D collage of Enginnering)
             <a
               href="https://drive.google.com/file/d/1ttNMEPUatfCOpQ1Oa3zJ9xob-aCjTJQE/view?usp=drivesdk"
+              target="_blank"
+            >
+              (Link)
+            </a>
+          </li>
+          <li>
+           Oracle Cloud Infrastructure 2024 Generative AI Certified Professional 
+            <a
+              href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=AE55051DB9C4BF7E47283FA868379D5578EFEA9A6DE814429C84330E7B96E091"
               target="_blank"
             >
               (Link)
