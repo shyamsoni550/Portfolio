@@ -83,7 +83,7 @@ function Home() {
         {/* right section */}
         <div className=" md:w-1/2 md:ml-48  md:mt-20 mt-8 order-1">
           <img
-            src="../public/images/photo.avif"
+            src="../public/images/photo.jpg"
             alt=""
             className="rounded-full md:w-[450px] h-[450px] "
           />
