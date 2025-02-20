@@ -6,19 +6,18 @@ import PortFolio from './PortFolio'
 import Footer from "./Footer"
 import Experience from "./Experience"
 
-
-
 function App() {
   return (
-    <>
-        <Home/>  
-        <Navbar />
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-blue-100">
+      <Navbar />
+      <main className="container mx-auto px-4 py-8">
+        <Home />
         <About />
         <PortFolio />
         <Experience />
-        <Footer />
-       
-    </>
+      </main>
+      <Footer />
+    </div>
   );
 }
 

@@ -10,11 +10,11 @@ import { FaNodeJs } from "react-icons/fa6";
 import { ReactTyped, Typed } from "react-typed";
 function Home() {
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20  my-20">
+    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 bg-white/50 backdrop-blur-sm rounded-lg p-8 shadow-xl">
       <div className="flex flex-col md:flex-row">
-        <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1 ">
+        <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
           <span className="text-xl">Welcome In My Feed</span>
-          <div className="flex space-x-1 text-2xl md:text-4xl ">
+          <div className="flex space-x-1 text-2xl md:text-4xl">
             <h1>Hello I'm a </h1>
             <ReactTyped
               className="text-red-700 font-bold"
@@ -26,7 +26,8 @@ function Home() {
           </div>
           <hr />
           <br />
-          <a className="bg-blue-800 hover:bg-green-700 text-white font-bold px-4 py-2 rounded" href="../public/images/vaya-shyam-resume .pdf" download="vaya-shyam-resume">Download Resume</a>
+          <a className="bg-blue-800 hover:bg-green-700 text-white font-bold px-4 py-2 rounded" href="/images/vaya-shyam-resume .pdf" download="vaya-shyam-resume">Download Resume</a>
+
           <br />
           <br />
           <hr />
@@ -38,9 +39,8 @@ function Home() {
             together!
           </p>
           <br />
-          {/* social media icons  */}
-          <div className="flex flex-col  items-center md:flex-row  space-y-6 md:space-y-0 justify-between ">
-            <div className="space-y-2 ">
+          <div className="flex flex-col items-center md:flex-row space-y-6 md:space-y-0 justify-between">
+            <div className="space-y-2">
               <h1 className="font-bold">Available on</h1>
               <ul className="flex space-x-5">
                 <li>
@@ -48,7 +48,6 @@ function Home() {
                     <FaFacebookSquare className="text-2xl cursor-pointer" />
                   </a>
                 </li>
-
                 <li>
                 <a href="https://www.linkedin.com/in/vaya-shyam/" target="_balnk">
                   <FaLinkedin className="text-2xl cursor-pointer" />
@@ -80,19 +79,17 @@ function Home() {
           </div>
         </div>
 
-        {/* right section */}
-        <div className=" md:w-1/2 md:ml-48  md:mt-20 mt-8 order-1">
+        <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1 flex justify-center">
           <img
-            src="../public/images/photo.jpg"
-            alt=""
-            className="rounded-full md:w-[450px] h-[450px] "
+            src="/images/photo.jpg"
+            alt="Profile"
+            className="rounded-full w-64 h-64 md:w-[450px] md:h-[450px] object-cover border-4 border-blue-500 shadow-lg"
           />
         </div>
       </div>
       <hr />
     </div>
   );
- 
 }
 
 export default Home;
