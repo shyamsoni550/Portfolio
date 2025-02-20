@@ -61,8 +61,11 @@ function Navbar() {
 
         {/* Mobile Navbar */}
         {menu && (
-          <div className="bg-white/10 backdrop-blur-lg md:hidden">
-            <ul className="flex flex-col h-screen items-center justify-center space-y-3 text-xl">
+          <div className="fixed inset-0 bg-black/50 backdrop-blur-sm md:hidden">
+            <div className="bg-white/10 backdrop-blur-lg">
+
+            <ul className="flex flex-col h-screen items-center justify-center space-y-3 text-xl relative z-10">
+
               {navItems.map(({ id, text }) => (
                 <li
                   className="px-4 py-2 text-gray-800 hover:text-white hover:bg-blue-600 rounded-lg transition-all duration-300 font-medium cursor-pointer border border-transparent hover:border-gray-800 shadow-md hover:shadow-lg"
@@ -82,7 +85,9 @@ function Navbar() {
                 </li>
               ))}
             </ul>
+            </div>
           </div>
+
         )}
       </div>
     </>
