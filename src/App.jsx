@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from "./Home"
+import Home from "./Home.jsx"
 import Navbar from "./Navbar"
 import About from "./About"
 import PortFolio from './PortFolio'
